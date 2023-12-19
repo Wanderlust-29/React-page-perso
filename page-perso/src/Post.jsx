@@ -1,6 +1,5 @@
-import { skills, posts } from './data.js';
-
 const Post = (props) => {
+  const {posts} = props
     return(
         <>
           {posts.map((post, i) => (

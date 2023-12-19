@@ -1,12 +1,14 @@
 import Post from './Post.jsx'
+import {posts} from './data.js';
 
 const Posts = (props) => {
+    const {title} = props;
     return(
         <>
           <section>
-          <h2>Publications</h2>
+          <h2>{title}</h2>
             <ul>      
-                <Post />
+                <Post posts={posts}/>
             </ul>
           </section>
         </>

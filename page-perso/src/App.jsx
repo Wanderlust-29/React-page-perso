@@ -6,8 +6,8 @@ import Posts from './Posts'
 function App() {
   return (
     <>
-      <Skills />
-      <Posts />
+      <Skills title="Compétences" />
+      <Posts title="Publications"/>
     </>
   );
 }
