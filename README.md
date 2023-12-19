@@ -1,2 +1,2 @@
 # bre01-react-page-perso
-eact-page-perso
+React-page-perso
